@@ -2,10 +2,31 @@
 //
 
 #include <iostream>
+using namespace std;
+
+namespace Nusser
+{
+    void print()
+    {
+
+    }
+}
+using namespace Nusser;
+
 
 int main()
 {
-    std::cout << "Git\n";
+    print();
+    cout << "Hello World\n";
+    cout << "Git\n";
+
+    cout << "Enter Age: ";
+    int age = 10;
+    cin >> age;
+
+    cout << "Age: " << age << endl;
+
+    printf("Hello");
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
